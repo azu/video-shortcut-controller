@@ -50,7 +50,6 @@ class MyShortcutController extends VideoShortcutController{
         }
         return super.onKeyCode(event, keyCode);
     }
-    super(event, keyCode);
 }
 ```
 
