@@ -18,6 +18,24 @@ controller.start();
 
 See [example/](example/)
 
+### Default Keyboard chortcut
+
+- Space
+    - toggle play/pause
+- ↑ Up
+    - volume up
+- ↓ Down
+    - volume down
+- → Right
+    - seek forward
+- ← Left
+    - seek backward
+- S
+    - toggle track(subs)
+- F
+    - toggle FullScreen
+    
+
 ### Custom Keyboard shortcut
 
 ```js
