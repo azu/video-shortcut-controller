@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -d example.js -o build.js"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "video-shortcut-controller": "file:.."
+  },
+  "devDependencies": {
+    "browserify": "^11.0.0"
+  }
+}

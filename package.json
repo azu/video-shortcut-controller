@@ -1,0 +1,35 @@
+{
+  "name": "video-shortcut-controller",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/video-shortcut-controller.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/video-shortcut-controller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/video-shortcut-controller/issues"
+  },
+  "version": "1.0.0",
+  "description": "Add keyboard shortcut to <video> element.",
+  "main": "lib/video-shortcut-controller.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps --loose es6.classes",
+    "watch": "babel src --out-dir lib --watch --source-maps --loose es6.classes"
+  },
+  "keywords": [
+    "video",
+    "shortcut",
+    "keyboard"
+  ],
+  "devDependencies": {
+    "babel": "^5.8.5"
+  }
+}
